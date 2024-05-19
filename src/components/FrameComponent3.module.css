@@ -1,0 +1,84 @@
+.image131Icon {
+  height: 105px;
+  width: 105px;
+  position: absolute;
+  margin: 0 !important;
+  right: 78px;
+  bottom: 35px;
+  border-radius: var(--br-7xs);
+  object-fit: cover;
+}
+.rollIcon {
+  height: 1024px;
+  width: 91px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 2;
+}
+.artistLineup {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.artistLineupWrapper,
+.rollParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.artistLineupWrapper {
+  flex-direction: column;
+  padding: var(--padding-451xl) 0 0;
+}
+.rollParent {
+  flex-direction: row;
+  gap: var(--gap-24xl);
+}
+.frameChild {
+  height: 150px;
+  width: 145px;
+  right: 36px;
+  bottom: 307px;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frameChild,
+.frameItem,
+.image131Parent {
+  margin: 0 !important;
+  position: absolute;
+}
+.frameItem {
+  height: 198px;
+  width: 192px;
+  right: -144px;
+  bottom: 283px;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.image131Parent {
+  top: 0;
+  left: 830px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+  font-family: var(--astrix-beta-heading-s);
+}
+@media screen and (max-width: 450px) {
+  .artistLineup {
+    font-size: var(--font-size-2xl);
+  }
+}

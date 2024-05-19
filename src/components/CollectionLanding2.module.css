@@ -1,0 +1,437 @@
+.frameChild,
+.rollIcon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rollIcon {
+  height: 1024px;
+  width: 91px;
+  object-fit: contain;
+}
+.frameChild {
+  align-self: stretch;
+  height: 40px;
+  max-width: 100%;
+}
+.frameContainer {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.kPeopleInterested {
+  position: relative;
+  line-height: 44px;
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex-direction: row;
+  gap: var(--gap-sm);
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: 0 0 var(--padding-461xl);
+  box-sizing: border-box;
+  min-height: 524px;
+  max-width: 100%;
+}
+.astrixBrandingIcon,
+.rollParent {
+  position: absolute;
+  margin: 0 !important;
+}
+.rollParent {
+  height: 100%;
+  top: 0;
+  right: 66px;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-52xl);
+  max-width: 100%;
+}
+.astrixBrandingIcon {
+  height: 74.2px;
+  width: 74.2px;
+  top: -8px;
+  left: -23.8px;
+  object-fit: contain;
+}
+.astrix {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.25px;
+  line-height: 64px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 128px;
+}
+.astrixBrandingParent,
+.astrixWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.astrixWrapper {
+  flex: 1;
+  justify-content: flex-end;
+}
+.astrixBrandingParent {
+  width: 215.5px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.cardSmallByPabloInstance {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cardSmallByPabloInstanceWrapper {
+  height: 701px;
+  width: 422px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 71px var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.astrix1,
+.blankLine,
+.events1 {
+  margin: 0;
+}
+.astrixEvents1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 118px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.astrixEvents,
+.astrixEventsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.astrixEvents {
+  align-self: stretch;
+  flex-direction: row;
+}
+.astrixEventsWrapper {
+  width: 361px;
+  flex-direction: column;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-size: var(--font-size-109xl);
+  color: var(--color-gray-200);
+}
+.eventsChild,
+.eventsItem {
+  height: 630px;
+  width: 412px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.eventsChild {
+  left: 439px;
+}
+.eventsItem {
+  right: 196px;
+}
+.lunarPalace {
+  margin: 0;
+}
+.ftKanyeWest {
+  margin: 0;
+  font-size: var(--astrix-beta-heading-s-size);
+}
+.lunarPalaceFtContainer {
+  width: 234px;
+  position: absolute;
+  margin: 0 !important;
+  top: 12px;
+  right: 377px;
+  line-height: 30px;
+  display: inline-block;
+}
+.lunarPalace1 {
+  margin: 0;
+}
+.ftKanyeWest1 {
+  margin: 0;
+  font-size: var(--astrix-beta-heading-s-size);
+}
+.lunarPalaceFtContainer1 {
+  width: 234px;
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+}
+.frameItem {
+  height: 630px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.events,
+.frameDiv,
+.lunarPalaceFtKanyeWestParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.events,
+.lunarPalaceFtKanyeWestParent {
+  flex-shrink: 0;
+}
+.lunarPalaceFtKanyeWestParent {
+  width: 414px;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+}
+.events {
+  margin-left: -691px;
+  margin-bottom: 9px;
+  width: 1482px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: 264px;
+  max-width: 188%;
+  z-index: 1;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.frameInner {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray-100);
+}
+.events2 {
+  width: 62.8px;
+  position: relative;
+  line-height: 14px;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  min-width: 62.8px;
+  z-index: 1;
+}
+.rectangleDiv {
+  height: 100%;
+  width: 163.6px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-darkslategray);
+  z-index: 1;
+}
+.collections {
+  position: relative;
+  line-height: 14px;
+  display: inline-block;
+  color: var(--palette-pac-man-50);
+  min-width: 103.9px;
+  z-index: 2;
+}
+.rectangleParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-base-8) var(--padding-7xl) var(--padding-2xl-3)
+    var(--padding-29xl-4);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.toggleLandingPageChild {
+  height: 50px;
+  width: 140px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.collectionLandingInner,
+.frameGroup,
+.toggleLandingPage {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.toggleLandingPage {
+  width: 350.5px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gainsboro);
+  font-family: var(--font-inter);
+}
+.collectionLandingInner,
+.frameGroup {
+  flex-direction: column;
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-20xl);
+  gap: var(--gap-36xl);
+}
+.collectionLandingInner {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-mid-3);
+  font-size: var(--font-size-21xl);
+  color: var(--palette-pac-man-500);
+}
+.collectionLanding {
+  width: 100%;
+  position: relative;
+  background-color: var(--palette-noble-black-700);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) 0 var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-143xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--palette-pac-man-50);
+  font-family: var(--astrix-beta-heading-s);
+}
+@media screen and (max-width: 1400px) {
+  .events {
+    flex-wrap: wrap;
+    gap: 132px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .collectionLanding {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .rollParent {
+    flex-wrap: wrap;
+  }
+  .astrix {
+    font-size: var(--font-size-13xl);
+    line-height: 51px;
+  }
+  .cardSmallByPabloInstanceWrapper {
+    padding-top: 46px;
+    box-sizing: border-box;
+  }
+  .astrixEvents1 {
+    font-size: var(--font-size-32xl);
+    line-height: 71px;
+  }
+  .events {
+    gap: 66px;
+  }
+  .frameGroup {
+    gap: var(--gap-8xl);
+  }
+  .collectionLandingInner {
+    min-width: 100%;
+  }
+  .collectionLanding {
+    gap: var(--gap-62xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .kPeopleInterested {
+    font-size: var(--astrix-beta-title-m-size);
+    line-height: 35px;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .astrix {
+    font-size: var(--astrix-beta-heading-s-size);
+    line-height: 38px;
+  }
+  .astrixEvents1 {
+    font-size: var(--font-size-13xl);
+    line-height: 47px;
+  }
+  .lunarPalaceFtContainer,
+  .lunarPalaceFtContainer1 {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .events {
+    gap: 33px;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .collectionLanding {
+    gap: var(--gap-21xl);
+  }
+}
